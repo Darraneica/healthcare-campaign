@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.solid-custom {
+    background-color: #007bff; /* Solid blue */
+}
+.solid-blue {
+    background-color: #0056b3; /* Dark blue */
+}
+.solid-lightblue {
+    background-color: #5bc0de; /* Light blue */
+}
+.animate-fade {
+    animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+    transform: scale(1.05);
+    background-color: #0056b3;
+}
+.recipient-card {
+    transition: all 0.3s ease;
+    border-left: 5px solid transparent;
+}
+.recipient-card:hover {
+    border-left: 5px solid #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+}
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+.btn-light {
+    color: #007bff;
+}
+.btn-light:hover {
+    background-color: #cce4f7;
+}
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+    margin-right: 10px;
+}
+.card-header {
+    font-weight: 700;
+}
+.preview{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #007bff;
+}
+
+.recipients{
+    background-color: #007bff;
+}
+.campaign-preview{
+    background-color: #007bff;
+}
+
+footer a{
+    color: whitesmoke;
+    list-style: none;
+}
